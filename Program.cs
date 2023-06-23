@@ -4,8 +4,8 @@ class Program {
   public static void Main (string[] args) {
     
                double x, y;
-               double A = 1°,B = 2°,C = 3°,D = 4°;
-               string Q = Quadrante;
+               //int A = 1°,B = 2°,C = 3°,D = 4°;
+               //string Q = Quadrante;
             Console.Clear();
             Console.WriteLine();   
 
@@ -63,6 +63,9 @@ class Program {
             Console.ForegroundColor = ConsoleColor.Yellow;
 
             Console.WriteLine("             +Y              ");
+            //Console.ForegroundColor = ConsoleColor.Red;
+            //Console.Write(Q,Trim(),ToUpper(),PadLeft(4, 0),Substring(0, 4));
+            //Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("              |              ");
             Console.WriteLine("      4º      |      1º      ");
             Console.WriteLine("   Quadrante  |   Quadrante  ");
@@ -78,6 +81,8 @@ class Program {
             
             Console.ResetColor();
             
-            Console.WriteLine(Q);
+            //Console.WriteLine(Q);
         }
      }
+
+
